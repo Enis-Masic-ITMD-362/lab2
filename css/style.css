@@ -1,3 +1,46 @@
+#form{
+	font-size:30px
+	
+}
 body{
 text-align:center;
+background-color:LightSteelBlue;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+fieldset {
+  border: none;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
